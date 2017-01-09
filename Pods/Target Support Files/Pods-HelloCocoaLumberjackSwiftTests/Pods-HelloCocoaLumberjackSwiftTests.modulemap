@@ -1,0 +1,6 @@
+framework module Pods_HelloCocoaLumberjackSwiftTests {
+  umbrella header "Pods-HelloCocoaLumberjackSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

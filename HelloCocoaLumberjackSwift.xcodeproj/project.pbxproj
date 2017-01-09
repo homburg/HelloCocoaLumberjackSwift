@@ -14,6 +14,9 @@
 		0DE301181E242165001D452A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE301161E242165001D452A /* LaunchScreen.storyboard */; };
 		0DE301231E242165001D452A /* HelloCocoaLumberjackSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE301221E242165001D452A /* HelloCocoaLumberjackSwiftTests.swift */; };
 		0DE3012E1E242165001D452A /* HelloCocoaLumberjackSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3012D1E242165001D452A /* HelloCocoaLumberjackSwiftUITests.swift */; };
+		1312820CC21E681E6EA8180C /* Pods_HelloCocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227762014C224390F6588ED9 /* Pods_HelloCocoaLumberjackSwift.framework */; };
+		2FB0D5B8EDF7F90D74A3A16F /* Pods_HelloCocoaLumberjackSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C64E42AFF0678BA0B585826 /* Pods_HelloCocoaLumberjackSwiftTests.framework */; };
+		D5DF46B8E586E7589C4DD7EA /* Pods_HelloCocoaLumberjackSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917B7F05F5E33CDFF926458E /* Pods_HelloCocoaLumberjackSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0DE301291E242165001D452A /* HelloCocoaLumberjackSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCocoaLumberjackSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE3012D1E242165001D452A /* HelloCocoaLumberjackSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCocoaLumberjackSwiftUITests.swift; sourceTree = "<group>"; };
 		0DE3012F1E242165001D452A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227762014C224390F6588ED9 /* Pods_HelloCocoaLumberjackSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCocoaLumberjackSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244BC621764BD3800A6FE541 /* Pods-HelloCocoaLumberjackSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftUITests/Pods-HelloCocoaLumberjackSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C64E42AFF0678BA0B585826 /* Pods_HelloCocoaLumberjackSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCocoaLumberjackSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554B3720877675A8A8AC3FF0 /* Pods-HelloCocoaLumberjackSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftTests/Pods-HelloCocoaLumberjackSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EB1ABD2E3604059DD7B6D01 /* Pods-HelloCocoaLumberjackSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftUITests/Pods-HelloCocoaLumberjackSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84967A65192FD4763387CA1B /* Pods-HelloCocoaLumberjackSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwift/Pods-HelloCocoaLumberjackSwift.release.xcconfig"; sourceTree = "<group>"; };
+		917B7F05F5E33CDFF926458E /* Pods_HelloCocoaLumberjackSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCocoaLumberjackSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B423967A9B4EE9E4B5BF4A2C /* Pods-HelloCocoaLumberjackSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwift/Pods-HelloCocoaLumberjackSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E5080ADAD663815A3C86BF /* Pods-HelloCocoaLumberjackSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaLumberjackSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftTests/Pods-HelloCocoaLumberjackSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1312820CC21E681E6EA8180C /* Pods_HelloCocoaLumberjackSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB0D5B8EDF7F90D74A3A16F /* Pods_HelloCocoaLumberjackSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5DF46B8E586E7589C4DD7EA /* Pods_HelloCocoaLumberjackSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0DE301211E242165001D452A /* HelloCocoaLumberjackSwiftTests */,
 				0DE3012C1E242165001D452A /* HelloCocoaLumberjackSwiftUITests */,
 				0DE3010B1E242165001D452A /* Products */,
+				A352163CB1CD0AAD73F12FB1 /* Pods */,
+				A228E1E1869580BE7F02249B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = HelloCocoaLumberjackSwiftUITests;
 			sourceTree = "<group>";
 		};
+		A228E1E1869580BE7F02249B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227762014C224390F6588ED9 /* Pods_HelloCocoaLumberjackSwift.framework */,
+				4C64E42AFF0678BA0B585826 /* Pods_HelloCocoaLumberjackSwiftTests.framework */,
+				917B7F05F5E33CDFF926458E /* Pods_HelloCocoaLumberjackSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A352163CB1CD0AAD73F12FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B423967A9B4EE9E4B5BF4A2C /* Pods-HelloCocoaLumberjackSwift.debug.xcconfig */,
+				84967A65192FD4763387CA1B /* Pods-HelloCocoaLumberjackSwift.release.xcconfig */,
+				C8E5080ADAD663815A3C86BF /* Pods-HelloCocoaLumberjackSwiftTests.debug.xcconfig */,
+				554B3720877675A8A8AC3FF0 /* Pods-HelloCocoaLumberjackSwiftTests.release.xcconfig */,
+				6EB1ABD2E3604059DD7B6D01 /* Pods-HelloCocoaLumberjackSwiftUITests.debug.xcconfig */,
+				244BC621764BD3800A6FE541 /* Pods-HelloCocoaLumberjackSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DE301321E242165001D452A /* Build configuration list for PBXNativeTarget "HelloCocoaLumberjackSwift" */;
 			buildPhases = (
+				84DC8CB345C612BD864D62B8 /* [CP] Check Pods Manifest.lock */,
 				0DE301061E242165001D452A /* Sources */,
 				0DE301071E242165001D452A /* Frameworks */,
 				0DE301081E242165001D452A /* Resources */,
+				B5596083482533B237082855 /* [CP] Embed Pods Frameworks */,
+				C0984870B4F1DF07BC2F8808 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DE301351E242165001D452A /* Build configuration list for PBXNativeTarget "HelloCocoaLumberjackSwiftTests" */;
 			buildPhases = (
+				0A173409F12617A6E2E332C8 /* [CP] Check Pods Manifest.lock */,
 				0DE3011A1E242165001D452A /* Sources */,
 				0DE3011B1E242165001D452A /* Frameworks */,
 				0DE3011C1E242165001D452A /* Resources */,
+				693D54C4C4A5E4CBFAD202B0 /* [CP] Embed Pods Frameworks */,
+				1CB801334041648F8387C3B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DE301381E242165001D452A /* Build configuration list for PBXNativeTarget "HelloCocoaLumberjackSwiftUITests" */;
 			buildPhases = (
+				707893B1A371FD2901242588 /* [CP] Check Pods Manifest.lock */,
 				0DE301251E242165001D452A /* Sources */,
 				0DE301261E242165001D452A /* Frameworks */,
 				0DE301271E242165001D452A /* Resources */,
+				51E2C4D34E84D54561E1AE3B /* [CP] Embed Pods Frameworks */,
+				FAD1E1E1F7696152B948CE4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A173409F12617A6E2E332C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB801334041648F8387C3B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftTests/Pods-HelloCocoaLumberjackSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E2C4D34E84D54561E1AE3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftUITests/Pods-HelloCocoaLumberjackSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693D54C4C4A5E4CBFAD202B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftTests/Pods-HelloCocoaLumberjackSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707893B1A371FD2901242588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84DC8CB345C612BD864D62B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5596083482533B237082855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwift/Pods-HelloCocoaLumberjackSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0984870B4F1DF07BC2F8808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwift/Pods-HelloCocoaLumberjackSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD1E1E1F7696152B948CE4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaLumberjackSwiftUITests/Pods-HelloCocoaLumberjackSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0DE301061E242165001D452A /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		0DE301331E242165001D452A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B423967A9B4EE9E4B5BF4A2C /* Pods-HelloCocoaLumberjackSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LX2PM3Y9AJ;
@@ -426,6 +614,7 @@
 		};
 		0DE301341E242165001D452A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84967A65192FD4763387CA1B /* Pods-HelloCocoaLumberjackSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LX2PM3Y9AJ;
@@ -439,6 +628,7 @@
 		};
 		0DE301361E242165001D452A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E5080ADAD663815A3C86BF /* Pods-HelloCocoaLumberjackSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		0DE301371E242165001D452A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554B3720877675A8A8AC3FF0 /* Pods-HelloCocoaLumberjackSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		0DE301391E242165001D452A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB1ABD2E3604059DD7B6D01 /* Pods-HelloCocoaLumberjackSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LX2PM3Y9AJ;
@@ -483,6 +675,7 @@
 		};
 		0DE3013A1E242165001D452A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244BC621764BD3800A6FE541 /* Pods-HelloCocoaLumberjackSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LX2PM3Y9AJ;
